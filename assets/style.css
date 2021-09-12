@@ -1,0 +1,156 @@
+:root {
+    --purple: #93827F;
+    --dark: #000000;
+    --pink: #FFFAFB;
+    --light: #87C38F;
+    --dull-teal: #226F54;
+}
+
+* {
+    background-color:var(--dark);
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+.header {
+    font-size:20px;
+    color:var(--purple);
+    float:right;
+    justify-content: right;
+}
+
+.header:hover {
+    color: var(--pink);
+}
+
+h1 {
+    font-size: 40px;
+    font-style: bold;
+    justify-content: center;
+    text-align: left;
+    color: var(--light);
+    line-height: 75%;
+}
+
+.webdev {
+    font-size: 30px;
+    padding: 5px;
+}
+
+.img1 {
+    border-radius: 50%;
+    width: 100px;
+    float: left;
+    height: 125px;
+    padding: 5px;
+}
+
+.img2 {
+    display: flex;
+    align-items:center;
+    width:75%;
+    height:75%;
+}
+
+.img2:hover {
+    box-shadow: inset 0px 5px 15px var(--pink), 
+    inset 0px 5px 10px var(--purple);
+}
+
+.img3 {
+    width: 100%;
+    height: 100%;
+}
+
+.img3:hover {
+    box-shadow: inset 0px 5px 15px var(--pink), 
+    inset 0px 5px 10px var(--purple);
+}
+
+.project1 {
+    position: relative;
+    margin: 5px;
+    justify-content: center;
+}
+
+.project2, .project3 {
+    position: relative;
+    margin: 5px;
+    flex: 50%;
+}
+
+.img2-txt {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color:var(--light);
+    font-size: 25px;
+    background: transparent;
+}
+
+.img3-txt {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    color:var(--dark);
+    font-size: 20px;
+    background: transparent;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    font-size: 20px;
+    color:var(--light);
+    justify-content: left;
+    padding: 5px;
+}
+
+h3 {
+    font-size:17px;
+    color: var(--light);
+    justify-content: left;
+    padding: 5px;
+}
+
+.btn {
+    background-color: var(--pink);
+    color: var(--dark);
+}
+
+.about, .resume {
+    color:var(--light);
+    font-size:15px;
+    box-sizing: border-box;
+    border-style: dotted;
+    border-radius: var(--light);
+    padding: 5px;
+    
+}
+
+.contactinfo {
+    color:var(--purple);
+    font-size: 17px;
+    justify-content: center;
+    padding: 5px;
+}
+
+
+
+footer {
+    text-align: center;
+    justify-content: center;
+    background-color: var(--light);
+    background-size: 100%;
+}
+
+.foottext {
+    background-color:transparent;
+    font-size: 17px;
+    color: var(--dark);
+    font-style: bold;
+}
