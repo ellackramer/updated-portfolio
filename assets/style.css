@@ -144,13 +144,13 @@ h3 {
 footer {
     text-align: center;
     justify-content: center;
-    background-color: var(--light);
+    background-color: var(--dark);
     background-size: 100%;
 }
 
 .foottext {
     background-color:transparent;
     font-size: 17px;
-    color: var(--dark);
+    color: var(--pink);
     font-style: bold;
 }
