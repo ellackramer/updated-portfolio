@@ -8,19 +8,31 @@
     <title>Ella Kramer Developer Portfolio</title>
 </head>
 
-<header class=header>
-<a class=header href="#aboutme">About Me  </a> <a class=header href="#resume">Resume ■ </a> <a class=header href="#projects">Projects ■ </a> <a class=header href="#contact">Contact Me ■ </a>
-</header>
-
-<h1> <p>Ella Kramer</p>
-   <p class="webdev">Web Developer and Graphic Designer</p>
-</h1>
+<!-- Image and text -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Ella Kramer</a> <img src="./assets/images/myface.jpg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Learn More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item active" href="#aboutme">About me</a>
+          <a class="dropdown-item" href="#resume">Resume</a>
+          <a class="dropdown-item" href="#projects">Projects</a>
+          <a class="dropdown-item" href="#contact">Contact Info</a>
+        </div>
+      </li>
+  </nav>
 
 <body>
     
-    <section class=about><a id="aboutme"> <a class="img1" src=".\assets\images\myface.jpg" alt="image description: black and white image of my face"></a>
-        <h2>About Me</h2>
-        <p>Hello! I'm a graphic designer/web developer and an Michigan State University alum. I fell into front end development by happenstance when I worked as an editor for a newspaper, and have been in love ever since.
+  <section class=about><a id="aboutme"> </a>
+    <h2>About Me</h2>
+    <p>Hello! I'm a graphic designer/web developer and an Michigan State University alum. I fell into front end development by happenstance when I worked as an editor for a newspaper, and have been in love ever since.
 I've spent the past year broadening my horisions and learning a multitude of programming lanuages to compliment my knowledge of the Adobe Creative Suite and</p>
 </a>
 </section>
@@ -63,20 +75,22 @@ I've spent the past year broadening my horisions and learning a multitude of pro
 
 
 
-<section class=resume><a id="resume"></a>
-    <h2>Resume</h2>
-    <button class="btn" href=".\assets\ellackramerRESUME.pdf" download="ellackramerRESUME"> Download Resume</button>
-    <h3>Mid-Michigan Investments, Lansing, Michigan - Freelance Contractor</h3>
-    <p>Social media marketing and promotion across numerous interfaces. 
-        Cold sales as well as recruiting and training of new contractors. 
-        </p>
-        <h3>City Pulse, Lansing, Michigan - Events Editor & Graphic Designer</h3>
-        <p>Collaborative design of print and digital advertisements
-            Front end website development, digital and social media marketing management. 
-            Wireframing and production of print news media in a high speed environment             
-            </p>
-</a>
-</section>
+  <div class="card">
+    <div class="card-header">
+      Resume
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Mid-Michigan Investments, Lansing, Michigan - Freelance Contractor</h5>
+      <p class="card-text">Social media marketing and promotion across numerous interfaces. 
+        Cold sales as well as recruiting and training of new contractors.</p>
+        <h5 class="card-title">City Pulse, Lansing, Michigan - Events Editor & Graphic Designer</h5>
+      <p class="card-text">Collaborative design of print and digital advertisements
+        Front end website development, digital and social media marketing management. 
+        Wireframing and production of print news media in a high speed environment.</p>
+      <a href=".\assets\ellackramerRESUME.pdf" download="ellackramerRESUME.pdf" class="btn btn-primary">Download resume</a>
+    </div>
+  </div>
+
 
 <section class=contactinfo><a id="contact">
     <p class=contactinfo>ellackramer@gmail.com <a class=contactinfo href="https://www.linkedin.com/in/ella-kramer-a0283920b/">Linkedin</a></p></a>
@@ -88,5 +102,7 @@ I've spent the past year broadening my horisions and learning a multitude of pro
 </break>
 <footer><p class="foottext">Made with ❤️ 2021</p>
 <p class="foottext">Like this page? <a class="foottext" href="https://www.buymeacoffee.com/ellaclaire">Buy me a coffee.</a></p></footer>
+
+<script> src="./assets/script.js"</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </html>
